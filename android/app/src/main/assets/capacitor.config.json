@@ -1,13 +1,6 @@
 {
-  "appId": "ch.ictbz.capacitorstarter",
-  "appName": "Capacitor Starter",
-  "bundledWebRuntime": false,
-  "npmClient": "npm",
-  "webDir": "www",
-  "plugins": {
-    "SplashScreen": {
-      "launchShowDuration": 0
-    }
-  },
-  "cordova": {}
+	"appId": "ch.ictbz.capacitorstarter",
+	"appName": "Capacitor Starter",
+	"webDir": "www",
+	"bundledWebRuntime": false
 }

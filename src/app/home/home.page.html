@@ -1,7 +1,7 @@
-<ion-content>
-  <ion-grid fixed>
+<ion-content class="ion-padding">
+  <ion-grid>
     <ion-row>
-      <ion-col size="12"><img width="250px" src="./assets/ict-bz-logo.svg"></ion-col>
+      <ion-col size="12"><img width="250px"  src="./assets/ict-bz-logo.svg"></ion-col>
       <ion-col size="12">
         Welcome to ICT-BZ's official capacitor starter template for M335.
           <ul>
@@ -15,9 +15,9 @@
        </ion-col>
     </ion-row>
     <ion-row>
-      <ion-label> <h1>Demo: CopyToClipboard</h1></ion-label>
-      <ion-col size="10"><ion-input type="text" placeholder="Your Input" [(ngModel)]="inputText"></ion-input></ion-col>
-      <ion-col size="2"><ion-button (click)="copyInputTextToClipboard()" color="secondary">
+     
+      <ion-col size="12"> <ion-label> <h1>Demo: CopyToClipboard</h1></ion-label><ion-input type="text" placeholder="Your Input" [(ngModel)]="inputText"></ion-input></ion-col>
+      <ion-col size="12"><ion-button (click)="copyInputTextToClipboard()" color="secondary">
         Copy
       </ion-button></ion-col>
     </ion-row>
