@@ -1,4 +1,4 @@
-package io.ionic.starter;
+package ch.ictbz.capacitorstarter;
 
 import com.getcapacitor.BridgeActivity;
 
